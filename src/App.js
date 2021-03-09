@@ -6,7 +6,6 @@ import Header from "./components/Header/Header";
 import Sidebar from "./components/Sidebar/Sidebar";
 import Footer from "./components/Footer/Footer";
 import "./App.css";
-import Contact from "./containers/Contact/Contact";
 
 function App() {
   return (
@@ -15,8 +14,9 @@ function App() {
         <Header />
         <Sidebar />
         <Switch>
-          <Route exact path="/" component={About}></Route>
-          <Route exact path="/portfolio" component={Portfolio}></Route>
+          <Route exact path="/" component={About} />
+          <Route exact path="/portfolio" component={Portfolio} />
+          <Route exact path="*" component={About} />
         </Switch>
       </Router>
       <Footer />
