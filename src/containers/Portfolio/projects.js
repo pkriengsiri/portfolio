@@ -1,11 +1,22 @@
 const projects = [
   {
+    name: "Roam",
+    description: "An application for facilitating group travel.  Allows for managing trips, shared expenses, and tasks.",
+    technologies:
+      "React, Bulma, Node Sass, moment.js, react-router-dom, Figma, CSS Animations, React-dates, Chart.js, jsonwebtoken, Express, Node.js, MongoDB, MongoDB Atlas, Mongoose, Axios, Cookie-parser,  Express File Upload, bcrypt, dotenv, Google Places API, Cloudinary",
+    repository: "https://github.com/pkriengsiri/roam",
+    deployed: "https://www.roam-together.com",
+    image: "roam.png",
+    imageAlt: "screenshot of Roam application",
+    gif: "",
+  },
+  {
     name: "Bird Brains",
     description: "A gamified bird-watching application",
     technologies:
       "HTML, CSS, JavaScript, jQuery, Materialize, Font-Awesome, Slick, Cloudinary API, Node.js, Express, Express Handlebars, Sequelize, ES Lint, Moment",
     repository: "https://github.com/pkriengsiri/bird-brains",
-    deployed: "https://bird-brains.herokuapp.com/",
+    deployed: "https://www.bird-brains.com",
     image: "bird.png",
     imageAlt: "screenshot of Bird Brains application",
     gif: "",

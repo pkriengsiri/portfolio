@@ -68,12 +68,12 @@ const About = () => {
           I have a B.S. in Industrial Engineering and an M.S. in Applied Systems
           Engineering—both from Georgia Tech. In my free time, I enjoy spending
           time with my wife (Julie) and two dogs (Wilbur and Penny), cooking,
-          and volunteering at the
+          and volunteering at the{'\u00A0'}
           <a
             href="https://secure.atlantahumane.org/site/Donation2?1400.donation=form1&df_id=1400&mfc_pref=T&s_src=basic&s_subsrc=mainnav"
             target="_blank"
           >
-            Atlanta Humane Society
+             Atlanta Humane Society
           </a>
           .
         </p>
