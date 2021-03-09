@@ -20,7 +20,10 @@ const Sidebar = () => {
           ></i>
         </div>
         <div className="list-group list-group-flush sidebar-links h4">
-          <Link to="/" className="list-group-item">
+        <Link to="/" className="list-group-item">
+            Home
+          </Link>
+          <Link to="/about" className="list-group-item">
             About
           </Link>
           <Link to="/portfolio" className="list-group-item">
