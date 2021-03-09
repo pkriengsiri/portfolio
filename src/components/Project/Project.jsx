@@ -12,7 +12,7 @@ const Project = ({ image, name, details,setProject}) => {
         document.getElementById('id01').style.display='block';
       }}
     >
-      <img className="card-img-top" src={cardImage.default} />
+      <img className="card-img-top" src={cardImage.default} alt={"screenshot of "+name} />
       <div className="card-body">
         <h3 className="card-title">{name}</h3>
       </div>

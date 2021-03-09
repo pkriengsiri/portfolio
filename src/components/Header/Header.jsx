@@ -17,6 +17,7 @@ const Header = () => {
           <a
             href={resume}
             target="_blank"
+            rel="noreferrer"
             className="h3"
           >
             Resume
@@ -30,13 +31,13 @@ const Header = () => {
           </div>
         </div>
         <div className="col-4 d-flex justify-content-end">
-          <a href="https://github.com/pkriengsiri" target="_blank">
+          <a href="https://github.com/pkriengsiri" target="_blank" rel="noreferrer">
             <i className="fab fa-github-square fa-3x mr-2"></i>
           </a>
-          <a href="https://www.linkedin.com/in/petekriengsiri/" target="_blank">
+          <a href="https://www.linkedin.com/in/petekriengsiri/" target="_blank" rel="noreferrer">
             <i className="fab fa-linkedin fa-3x mr-2"></i>
           </a>
-          <a href="mailto:pkriengsiri@gmail.com" target="_blank">
+          <a href="mailto:pkriengsiri@gmail.com">
           <i className="fas fa-envelope-square fa-3x"></i>
         </a>
         </div>

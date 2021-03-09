@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import Main from "../../components/Main/Main";
 import Modal from "../../components/Modal/Modal";
 import Project from "../../components/Project/Project";

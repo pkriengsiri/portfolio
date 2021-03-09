@@ -40,6 +40,8 @@ const Modal = () => {
               className="btn btn-primary bg-info rounded border-info m-1"
               id="application-link"
               target="_blank"
+              rel="noreferrer"
+              
             >
               View the deployed application
             </a>
@@ -48,6 +50,7 @@ const Modal = () => {
               className="btn btn-primary bg-info rounded border-info m-1"
               id="repository-link"
               target="_blank"
+              rel="noreferrer"
             >
               View the repository
             </a>

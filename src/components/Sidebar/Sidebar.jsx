@@ -29,6 +29,7 @@ const Sidebar = () => {
           <a
             href={resume}
             target="_blank"
+            rel="noreferrer"
             className="list-group-item"
           >
             Resume
@@ -36,6 +37,7 @@ const Sidebar = () => {
           <a
             href="https://github.com/pkriengsiri"
             target="_blank"
+            rel="noreferrer"
             className="list-group-item"
           >
             <i className="fab fa-github-square mr-2"></i>GitHub
@@ -43,6 +45,7 @@ const Sidebar = () => {
           <a
             href="https://www.linkedin.com/in/petekriengsiri/"
             target="_blank"
+            rel="noreferrer"
             className="list-group-item"
           >
             <i className="fab fa-linkedin mr-2"></i>LinkedIn

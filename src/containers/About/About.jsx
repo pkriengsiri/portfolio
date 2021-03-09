@@ -23,8 +23,9 @@ const About = () => {
           <a
             href="https://en.wikipedia.org/wiki/Compaq_Portable_III"
             target="_blank"
+            rel="noreferrer"
           >
-            Compaq Portable III
+            {'\u00A0'}Compaq Portable III{'\u00A0'}
           </a>
           brief-case style computer, complete with a 12 MHz processor, 640 KB of
           ram and a built-in 10” gas-plasma display. Here is where I learned the
@@ -72,6 +73,7 @@ const About = () => {
           <a
             href="https://secure.atlantahumane.org/site/Donation2?1400.donation=form1&df_id=1400&mfc_pref=T&s_src=basic&s_subsrc=mainnav"
             target="_blank"
+            rel="noreferrer"
           >
              Atlanta Humane Society
           </a>
