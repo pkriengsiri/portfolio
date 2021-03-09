@@ -14,6 +14,11 @@ body {
   font-family: "Courier New", Courier, monospace;
   /* font-family: Arial, Helvetica, sans-serif; */
   background-color: #468faf;
+  background-image: url("./images/stars.jpg") ;
+  background-size: cover;
+  background-repeat:   no-repeat;
+  background-position: center center;  
+  /* opacity: 50%; */
 }
 
 h1,

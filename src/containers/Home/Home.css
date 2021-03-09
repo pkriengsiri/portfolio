@@ -1,5 +1,16 @@
+.home {
+    color: #FFF;
+}
+
+.home-buttons {
+    height: 150px;
+    background-color: #468faf;
+    padding: 10px;
+    border-radius: 10px;
+}
+
 #welcome-message {
     font-size: 4rem;
     font-family: "Amatic SC", "Courier New", Courier, monospace;
-
+    
 }
