@@ -7,7 +7,6 @@ const Sidebar = () => {
   const handleClick = () => {
     document.querySelector(".sidebar").style.width = "0px";
   };
-  
 
   return (
     <>
@@ -20,7 +19,7 @@ const Sidebar = () => {
           ></i>
         </div>
         <div className="list-group list-group-flush sidebar-links h4">
-        <Link to="/" className="list-group-item">
+          <Link to="/" className="list-group-item">
             Home
           </Link>
           <Link to="/about" className="list-group-item">
@@ -52,6 +51,9 @@ const Sidebar = () => {
             className="list-group-item"
           >
             <i className="fab fa-linkedin mr-2"></i>LinkedIn
+          </a>
+          <a href="mailto:pkriengsiri@gmail.com" className="list-group-item">
+            <i className="fas fa-envelope-square mr-2"></i>Email
           </a>
         </div>
       </aside>

@@ -7,7 +7,7 @@
   left: 0;
   background-color: #01497c;
   overflow-x: hidden;
-  transition: 1s;
+  transition: .75s;
   padding-top: 20px;
 }
 
