@@ -1,0 +1,21 @@
+.card-custom {
+    margin: 20px;
+    width: 250px;
+    background-color: #01497c;
+  }
+
+  .animate-card {
+    position: relative;
+    animation: animatecard 1s;
+  }
+ 
+  @keyframes animatecard {
+    from {
+      top: -200px;
+      opacity: 0;
+    }
+    to {
+      top: 0;
+      opacity: 1;
+    }
+  }

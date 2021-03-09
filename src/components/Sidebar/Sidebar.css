@@ -1,0 +1,32 @@
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #01497c;
+  overflow-x: hidden;
+  transition: 1s;
+  padding-top: 20px;
+}
+
+.sidebar .list-group-item {
+  background-color: #01497c;
+}
+
+.sidebar-links {
+  width: 230px;
+  margin-left: 10px;
+}
+
+#close-menu {
+  float: right;
+  margin-right: 10px;
+  color: #a9d6e5;
+}
+
+#close-menu:hover {
+  color: #61a5c2;
+}
+

@@ -1,0 +1,24 @@
+.navbar {
+  background-color: #013a63;
+  font: "Amatic SC";
+}
+
+#open-menu:hover {
+  color: #61a5c2;
+}
+
+#open-menu {
+  color: #a9d6e5;
+}
+
+@media screen and (max-width: 1024px) {
+  .navbar-expanded {
+    display:none;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .navbar-collapse {
+    display:none;
+  }
+}
