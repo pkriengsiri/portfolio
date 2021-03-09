@@ -4,19 +4,19 @@ import "./About.css";
 import circleImage from "../../images/pete.png";
 
 const About = () => {
-  const title="About Me";
-  const circleImageAlt="headshot of Pete Kriengsiri"
+  const title = "About Me";
+  const circleImageAlt = "headshot of Pete Kriengsiri";
   const aboutContent = (
     <div className="row px-3">
       <div className="col">
         <p>
-          Welcome to my portfolio! I am an aspiring software developer based in
-          Atlanta, GA and currently enrolled in the Georgia Tech Coding Boot
-          Camp. For most of the past 15 years, I have been performing work as an
-          occupational safety and risk management consultant both in the public
-          and private sectors—most recently with my company Mantrada LLC. A
-          slowdown in work due to the pandemic provided me with an opportunity
-          to pursue a long-time dream.
+          Welcome to my portfolio! I am a full-stack web developer in Atlanta,
+          GA who recently completed a certificate in Full-Stack Web Development
+          at Georgia Tech. For most of the past 15 years, I have been performing
+          work as an occupational safety and risk management consultant both in
+          the public and private sectors—most recently with my company Mantrada
+          LLC. A slowdown in work due to the pandemic provided me with an
+          opportunity to pursue a long-time dream.
         </p>
         <p>
           I have always been technologically inclined-- My first computer was a
@@ -39,17 +39,18 @@ const About = () => {
         </p>
         <ul className="list-group mb-3 mx-3">
           <li className="list-group-item">
-            <i className="fas fa-code"></i> In high school, creating the homepage for a family friend’s free internet
-            service provider using HTML 3.
+            <i className="fas fa-code"></i> In high school, creating the
+            homepage for a family friend’s free internet service provider using
+            HTML 3.
           </li>
           <li className="list-group-item">
-            <i className="fas fa-code"></i> Designing personal websites for myself
-            and friends using Wordpress and Movable Type
+            <i className="fas fa-code"></i> Designing personal websites for
+            myself and friends using Wordpress and Movable Type
           </li>
           <li className="list-group-item">
-            <i className="fas fa-code"></i> In college, learning JAVA in order to
-            implement a dynamic program algorithm for determining the outcome of
-            NCAA tournament games and optimal bracket selections
+            <i className="fas fa-code"></i> In college, learning JAVA in order
+            to implement a dynamic program algorithm for determining the outcome
+            of NCAA tournament games and optimal bracket selections
           </li>
           <li className="list-group-item">
             <i className="fas fa-code"></i> Building web-controlled dog treat
@@ -58,9 +59,9 @@ const About = () => {
             HTML, and JavaScript (wish I had patented this idea)
           </li>
           <li className="list-group-item">
-            <i className="fas fa-code"></i> Creating a home-made sous-vide cooking
-            device by integrating a slow cooker, PID controller, solid state
-            relay, thermocouples, and 110VAC outlets
+            <i className="fas fa-code"></i> Creating a home-made sous-vide
+            cooking device by integrating a slow cooker, PID controller, solid
+            state relay, thermocouples, and 110VAC outlets
           </li>
         </ul>
         <p>
@@ -72,7 +73,7 @@ const About = () => {
             href="https://secure.atlantahumane.org/site/Donation2?1400.donation=form1&df_id=1400&mfc_pref=T&s_src=basic&s_subsrc=mainnav"
             target="_blank"
           >
-             Atlanta Humane Society
+            Atlanta Humane Society
           </a>
           .
         </p>
@@ -81,7 +82,12 @@ const About = () => {
   );
 
   return (
-    <Main circleImage={circleImage} circleImageAlt={circleImageAlt} content={aboutContent} title={title}/>
+    <Main
+      circleImage={circleImage}
+      circleImageAlt={circleImageAlt}
+      content={aboutContent}
+      title={title}
+    />
   );
 };
 
