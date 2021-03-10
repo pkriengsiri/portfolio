@@ -36,6 +36,10 @@
     color: #037edd;
 }
 
+.home-spacer {
+  height: 150px;
+}
+
 
 .icons {
     background-color: #012a4a;
@@ -47,4 +51,22 @@
   font-size: 4rem;
   font-family: "Amatic SC", "Courier New", Courier, monospace;
   text-align: center;
+}
+
+@media screen and (max-width: 1920px) {
+  .home-spacer {
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .home-spacer {
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home-spacer {
+    height: 0px;
+  }
 }

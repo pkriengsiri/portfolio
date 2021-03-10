@@ -14,10 +14,12 @@ const Home = () => {
   };
 
   return (
+    <>
+    <div className="home-spacer"></div>
     <div className="container mt-3 home">
       <div id="welcome-message">Welcome to my portfolio</div>
       <div className="row">
-        <div className="col-12 col-md-6">
+        <div className="col-12 col-lg-6">
           <h2 className="mt-3 mb-3">
             I'm a full-stack developer based in Atlanta, GA
           </h2>
@@ -62,7 +64,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="col-12 col-md-6">
+        <div className="col-12 col-lg-6">
           <h2 className="mt-3 mb-3">My technologies:</h2>
           <div className="row icons p-3 d-flex justify-content-center mx-2">
             <i className="devicon-mongodb-plain-wordmark devicon m-2"></i>
@@ -83,6 +85,7 @@ const Home = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 
