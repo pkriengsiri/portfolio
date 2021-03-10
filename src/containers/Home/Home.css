@@ -4,7 +4,7 @@
 }
 
 .devicon:hover {
-  font-size: 3rem;
+  font-size: 5rem;
   color: #468faf;
 }
 
@@ -14,18 +14,26 @@
 
 .home-buttons {
   height: 150px;
-  background-color: #244857;
+  background-color: #00457a;
   padding: 10px;
   border-radius: 10px;
 }
 
 .home-buttons:hover {
-  background-color: #305d70;
+  background-color: #005aa0;
   cursor: pointer;
 }
 
 .home-buttons-text {
     font-size: 1.2rem;
+}
+
+.home-link {
+    color: #016ec2;
+}
+
+.home-link:hover {
+    color: #037edd;
 }
 
 

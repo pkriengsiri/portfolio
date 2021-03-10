@@ -14,11 +14,11 @@ const Home = () => {
   };
 
   return (
-    <div className="container mt-5 home">
+    <div className="container mt-3 home">
       <div id="welcome-message">Welcome to my portfolio</div>
       <div className="row">
         <div className="col-12 col-md-6">
-          <h2 className="mt-3">
+          <h2 className="mt-3 mb-3">
             I'm a full-stack developer based in Atlanta, GA
           </h2>
           <div className="row justify-content-center">
@@ -37,29 +37,33 @@ const Home = () => {
               <i class="fas fa-tools fa-4x"></i>
             </div>
           </div>
-          <h2 className="mt-2">Connect with me:</h2>
-          <div className="row ml-4 d-flex">
-            <a
-              href="https://github.com/pkriengsiri"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <i className="fab fa-github-square fa-6x mr-2"></i>
-            </a>
-            <a
-              href="https://www.linkedin.com/in/petekriengsiri/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <i className="fab fa-linkedin fa-6x mr-2"></i>
-            </a>
-            <a href="mailto:pkriengsiri@gmail.com">
-              <i className="fas fa-envelope-square fa-6x"></i>
-            </a>
+          <div className="my-4">
+            <h2 className="mx-2">Connect with me:</h2>
+            <div className="row ml-4 d-flex">
+              <a
+                href="https://github.com/pkriengsiri"
+                target="_blank"
+                rel="noreferrer"
+                className="home-link"
+              >
+                <i className="fab fa-github-square fa-6x mr-2"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/petekriengsiri/"
+                target="_blank"
+                rel="noreferrer"
+                className="home-link"
+              >
+                <i className="fab fa-linkedin fa-6x mr-2"></i>
+              </a>
+              <a href="mailto:pkriengsiri@gmail.com" className="home-link">
+                <i className="fas fa-envelope-square fa-6x"></i>
+              </a>
+            </div>
           </div>
         </div>
         <div className="col-12 col-md-6">
-          <h2 className="mt-3">My technologies:</h2>
+          <h2 className="mt-3 mb-3">My technologies:</h2>
           <div className="row icons p-3 d-flex justify-content-center mx-2">
             <i className="devicon-mongodb-plain-wordmark devicon m-2"></i>
             <i className="devicon-express-original devicon m-2"></i>
@@ -68,7 +72,7 @@ const Home = () => {
             <i className="devicon-javascript-plain devicon m-2"></i>
             <i className="devicon-jquery-plain-wordmark devicon m-2"></i>
             <i className="devicon-html5-plain-wordmark devicon m-2"></i>
-            <i className="devicon-mysql-plain-wordmark devicon m-2"></i> 
+            <i className="devicon-mysql-plain-wordmark devicon m-2"></i>
             <i className="devicon-handlebars-plain-wordmark devicon m-2"></i>
             <i className="devicon-sequelize-plain-wordmark devicon m-2"></i>
             <i className="devicon-bootstrap-plain-wordmark devicon m-2"></i>
