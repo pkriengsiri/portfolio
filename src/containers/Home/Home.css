@@ -1,11 +1,16 @@
+.connect-icons {
+  background-color: #00345c;
+  border-radius: 10px;
+}
+
 .devicon {
   font-size: 5rem;
-  color: white;
+  color: #89ccff;
 }
 
 .devicon:hover {
   font-size: 5rem;
-  color: #468faf;
+  color: #d38900;
 }
 
 .home {
@@ -29,11 +34,11 @@
 }
 
 .home-link {
-    color: #016ec2;
+    color: #ddeefb;
 }
 
 .home-link:hover {
-    color: #037edd;
+    color: #76b2e0;
 }
 
 .home-spacer {
