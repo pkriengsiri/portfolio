@@ -10,13 +10,13 @@ const About = () => {
     <div className="row px-3">
       <div className="col">
         <p>
-          Welcome to my portfolio! I am a full-stack web developer in Atlanta,
-          GA who recently completed a certificate in Full-Stack Web Development
-          at Georgia Tech. For most of the past 15 years, I have been performing
-          work as an occupational safety and risk management consultant both in
-          the public and private sectors—most recently with my company Mantrada
-          LLC. A slowdown in work due to the pandemic provided me with an
-          opportunity to pursue a long-time dream.
+          Welcome to my portfolio! My name is Pete Kriengsiri, I am a full-stack
+          web developer in Atlanta, GA who recently completed a certificate in
+          Full-Stack Web Development at Georgia Tech. For most of the past 15
+          years, I have been performing work as an occupational safety and risk
+          management consultant both in the public and private sectors—most
+          recently with my company Mantrada LLC. A slowdown in work due to the
+          pandemic provided me with an opportunity to pursue a long-time dream.
         </p>
         <p>
           I have always been technologically inclined-- My first computer was a
@@ -25,7 +25,7 @@ const About = () => {
             target="_blank"
             rel="noreferrer"
           >
-            {'\u00A0'}Compaq Portable III{'\u00A0'}
+            {"\u00A0"}Compaq Portable III{"\u00A0"}
           </a>
           brief-case style computer, complete with a 12 MHz processor, 640 KB of
           ram and a built-in 10” gas-plasma display. Here is where I learned the
@@ -42,7 +42,7 @@ const About = () => {
           <li className="list-group-item">
             <i className="fas fa-code"></i> In high school, creating the
             homepage for a family friend’s free internet service provider using
-            HTML 3.
+            HTML 3 and Microsoft Frontpage
           </li>
           <li className="list-group-item">
             <i className="fas fa-code"></i> Designing personal websites for
@@ -54,7 +54,7 @@ const About = () => {
             of NCAA tournament games and optimal bracket selections
           </li>
           <li className="list-group-item">
-            <i className="fas fa-code"></i> Building web-controlled dog treat
+            <i className="fas fa-code"></i> Building a web-controlled dog treat
             dispenser, which integrated an off-the-shelf motorized treat
             dispenser, RF remote, webcam, USB relay, windows-based web server,
             HTML, and JavaScript (wish I had patented this idea)
@@ -69,13 +69,13 @@ const About = () => {
           I have a B.S. in Industrial Engineering and an M.S. in Applied Systems
           Engineering—both from Georgia Tech. In my free time, I enjoy spending
           time with my wife (Julie) and two dogs (Wilbur and Penny), cooking,
-          and volunteering at the{'\u00A0'}
+          and volunteering at the{"\u00A0"}
           <a
             href="https://secure.atlantahumane.org/site/Donation2?1400.donation=form1&df_id=1400&mfc_pref=T&s_src=basic&s_subsrc=mainnav"
             target="_blank"
             rel="noreferrer"
           >
-             Atlanta Humane Society
+            Atlanta Humane Society
           </a>
           .
         </p>
