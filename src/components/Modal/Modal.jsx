@@ -35,7 +35,7 @@ const Modal = () => {
           <h4>Technologies</h4>
           <p>{technologies}</p>
           <div className="modal-buttons mb-3">
-            <a
+            {deployed && <a
               href={deployed}
               className="btn btn-primary bg-info rounded border-info m-1"
               id="application-link"
@@ -43,8 +43,8 @@ const Modal = () => {
               rel="noreferrer"
               
             >
-              View the deployed application
-            </a>
+              Deployed Link
+            </a>}
             <a
               href={repository}
               className="btn btn-primary bg-info rounded border-info m-1"
@@ -52,7 +52,7 @@ const Modal = () => {
               target="_blank"
               rel="noreferrer"
             >
-              View the repository
+              Source Code
             </a>
           </div>
         </div>

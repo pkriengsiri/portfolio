@@ -49,7 +49,7 @@ const projects = [
     description: "A command-line CMS for managing employee data",
     technologies: "Node.js, MySQL, Inquirer",
     repository: "https://github.com/pkriengsiri/employee-tracker",
-    deployed: "https://github.com/pkriengsiri/employee-tracker",
+    deployed: "",
     image: "employee.png",
     imageAlt: "screenshot of Employee Tracker application",
     gif: "",

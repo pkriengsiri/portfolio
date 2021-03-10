@@ -6,7 +6,7 @@
 
   .animate-card {
     position: relative;
-    animation: animatecard 1.5s;
+    animation: animatecard 1s;
   }
  
   @keyframes animatecard {
