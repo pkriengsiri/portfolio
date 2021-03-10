@@ -1,21 +1,42 @@
+.devicon {
+  font-size: 5rem;
+  color: white;
+}
+
+.devicon:hover {
+  font-size: 3rem;
+  color: #468faf;
+}
+
 .home {
-    color: #FFF;
+  color: #fff;
 }
 
 .home-buttons {
-    height: 150px;
-    background-color: #468faf;
-    padding: 10px;
-    border-radius: 10px;
+  height: 150px;
+  background-color: #244857;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 .home-buttons:hover {
-    background-color: #57a4c5;
+  background-color: #305d70;
+  cursor: pointer;
+}
+
+.home-buttons-text {
+    font-size: 1.2rem;
 }
 
 
+.icons {
+    background-color: #012a4a;
+    border-radius: 10px;
+    color: #fff;
+  }
+
 #welcome-message {
-    font-size: 4rem;
-    font-family: "Amatic SC", "Courier New", Courier, monospace;
-    
+  font-size: 4rem;
+  font-family: "Amatic SC", "Courier New", Courier, monospace;
+  text-align: center;
 }
