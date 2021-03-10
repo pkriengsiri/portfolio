@@ -6,12 +6,12 @@
 
   .animate-card {
     position: relative;
-    animation: animatecard 1s;
+    animation: animatecard 1.5s;
   }
  
   @keyframes animatecard {
     from {
-      top: -200px;
+      top: -100px;
       opacity: 0;
     }
     to {
