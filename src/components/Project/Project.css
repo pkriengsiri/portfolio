@@ -4,6 +4,13 @@
     background-color: #01497c;
   }
 
+  .card-img-top {
+    max-height: 180px;
+    object-fit: cover;
+    object-position: top;
+    /* vertical-align: text-top; */
+  }
+
   .animate-card {
     position: relative;
     animation: animatecard 1s;
