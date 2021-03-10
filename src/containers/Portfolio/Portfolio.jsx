@@ -14,7 +14,7 @@ const Portfolio = () => {
   const circleImageAlt = "picture of a printed circuit board";
   const content = (
     <>
-      <div className="row ml-5">
+      <div className="row ml-5 justify-content-center">
         <h3>Please click on a project card to view the project details: </h3>
       </div>
       <div className="row justify-content-center" id="project-list">

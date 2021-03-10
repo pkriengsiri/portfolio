@@ -23,7 +23,7 @@ const Home = () => {
             <h2 className="mt-3 mb-3">
               I'm a full-stack developer based in Atlanta, GA
             </h2>
-            <div className="row justify-content-center">
+            <div className="row ml-3">
               <div
                 className="col-5 home-buttons m-1 text-center"
                 onClick={linkAbout}

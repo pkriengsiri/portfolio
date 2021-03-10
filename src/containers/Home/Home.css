@@ -30,48 +30,56 @@
 }
 
 .home-buttons-text {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
 .home-link {
-    color: #ddeefb;
+  color: #ddeefb;
 }
 
 .home-link:hover {
-    color: #76b2e0;
+  color: #76b2e0;
 }
 
 .home-spacer {
-  height: 150px;
+  height: 75px;
 }
 
-
 .icons {
-    background-color: #012a4a;
-    border-radius: 10px;
-    color: #fff;
-  }
+  background-color: #012a4a;
+  border-radius: 10px;
+  color: #fff;
+}
 
 #welcome-message {
   font-size: 4rem;
   font-family: "Amatic SC", "Courier New", Courier, monospace;
   text-align: center;
+  margin-bottom: 75px;
 }
 
 @media screen and (max-width: 1920px) {
   .home-spacer {
-    height: 100px;
+    height: 50px;
   }
 }
 
 @media screen and (max-width: 1024px) {
   .home-spacer {
-    height: 50px;
+    height: 25px;
+  }
+
+  #welcome-message {
+    margin-bottom: 25px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .home-spacer {
     height: 0px;
+  }
+
+  #welcome-message {
+    margin-bottom: 10px;
   }
 }
