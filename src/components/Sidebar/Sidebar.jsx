@@ -10,7 +10,7 @@ const Sidebar = () => {
 
   return (
     <>
-      <aside className="sidebar" onBlur={handleClick}>
+      <aside className="sidebar">
         <div id="close-menu">
           <i
             className="fas fa-window-close fa-2x"
