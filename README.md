@@ -3,7 +3,7 @@ Portfolio for Pete Kriengsiri
 
 ## Description
 
-This application is a personal portfolio website written using JavaScript, HTML, and React.  The Bootstrap CSS framework was used for page styling.  Routing is handled via React Router Dom BrowserRouter
+This application is a personal portfolio website written using JavaScript, HTML, and React.  The Bootstrap CSS framework was used for page styling.  Routing is handled via React Router.
 
 
 ## Installation
