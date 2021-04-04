@@ -10,7 +10,7 @@ import SidebarContext from "./contexts/SidebarContext";
 import "./App.css";
 
 function App() {
-  const [sidebarDisplay, setSidebarDisplay] = useState(true);
+  const [sidebarDisplay, setSidebarDisplay] = useState(false);
 
   return (
     <div className="App">

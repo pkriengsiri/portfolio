@@ -1,14 +1,20 @@
 .sidebar {
   height: 100%;
-  width: 250px;
   position: fixed;
+  width: 250px;
   z-index: 1;
   top: 0;
-  left: 0;
   background-color: #01497c;
   overflow-x: hidden;
-  transition: .75s;
   padding-top: 20px;
+  animation: slidein .75s;
+} @keyframes slidein {
+  from {
+    left: -250px;
+  }
+  to {
+    left: 0px;
+  }
 }
 
 .sidebar .list-group-item {
