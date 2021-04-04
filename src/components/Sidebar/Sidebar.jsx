@@ -1,11 +1,14 @@
-import React from "react";
+import {React, useContext} from "react";
 import "./Sidebar.css";
 import { Link } from "react-router-dom";
 import resume from "../../files/dpk_resume.pdf";
+import SidebarContext from "../../contexts/SidebarContext";
 
 const Sidebar = () => {
-  const handleClick = () => {
-    document.querySelector(".sidebar").style.width = "0px";
+  const setSidebarDisplay = useContext(SidebarContext);
+
+  const closeSidebar = () => {
+    setSidebarDisplay(false);
   };
 
   return (
@@ -15,7 +18,7 @@ const Sidebar = () => {
           <i
             className="fas fa-window-close fa-2x"
             id="hamburger-close"
-            onClick={handleClick}
+            onClick={closeSidebar}
           ></i>
         </div>
         <div className="list-group list-group-flush sidebar-links h4">

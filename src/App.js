@@ -10,12 +10,12 @@ import SidebarContext from "./contexts/SidebarContext";
 import "./App.css";
 
 function App() {
-  const [sidebarDisplay, setSidebardisplay] = useState(false);
+  const [sidebarDisplay, setSidebarDisplay] = useState(true);
 
   return (
     <div className="App">
       <Router>
-        <SidebarContext.Provider value={ setSidebardisplay}>
+        <SidebarContext.Provider value={setSidebarDisplay}>
           <Header />
           {sidebarDisplay && <Sidebar />}
         </SidebarContext.Provider>
