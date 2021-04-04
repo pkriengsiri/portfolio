@@ -1,17 +1,8 @@
-import React, { useContext } from "react";
+import React from "react";
 import "./Modal.css";
-import ProjectContext from "../../contexts/ProjectContext";
+
 
 const Modal = ({project, setModalDisplay}) => {
-  const {
-    image,
-    name,
-    description,
-    technologies,
-    repository,
-    deployed,
-    imageAlt,
-  } = useContext(ProjectContext);
 
   let modalImage = require("../../images/" + project.image);
 
@@ -19,24 +10,24 @@ const Modal = ({project, setModalDisplay}) => {
     <div id="id01" className="w3-modal">
       <div className="w3-modal-content w3-animate-top p-2">
         <header className="container w3-teal modal-header pb-1">
-          <h3>{name}</h3>
+          <h3>{project.name}</h3>
         </header>
         <div className="container">
           <div className="mb-3">
             <img
               className="w-100 mt-3"
               id="project-image"
-              alt={imageAlt}
+              alt={project.imageAlt}
               src={modalImage.default}
             />
           </div>
           <h4>Description</h4>
-          <p>{description}</p>
+          <p>{project.description}</p>
           <h4>Technologies</h4>
-          <p>{technologies}</p>
+          <p>{project.technologies}</p>
           <div className="modal-buttons mb-3">
-            {deployed && <a
-              href={deployed}
+            {project.deployed && <a
+              href={project.deployed}
               className="btn btn-primary bg-info rounded border-info m-1"
               id="application-link"
               target="_blank"
@@ -46,7 +37,7 @@ const Modal = ({project, setModalDisplay}) => {
               Deployed Link
             </a>}
             <a
-              href={repository}
+              href={project.repository}
               className="btn btn-primary bg-info rounded border-info m-1"
               id="repository-link"
               target="_blank"
