@@ -29,14 +29,14 @@ const Home = () => {
                 onClick={linkAbout}
               >
                 <p className="home-buttons-text">About me</p>{" "}
-                <i class="fas fa-id-card fa-4x"></i>
+                <i className="fas fa-id-card fa-4x"></i>
               </div>
               <div
                 className="col-5 home-buttons m-1 text-center"
                 onClick={linkPortfolio}
               >
                 <p className="home-buttons-text">View my projects</p>
-                <i class="fas fa-tools fa-4x"></i>
+                <i className="fas fa-tools fa-4x"></i>
               </div>
             </div>
             <div className="my-4">

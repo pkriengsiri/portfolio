@@ -1,7 +1,7 @@
 .sidebar {
   height: 100%;
   position: fixed;
-  width: 250px;
+  width: 200px;
   z-index: 1;
   top: 0;
   background-color: #01497c;
@@ -22,7 +22,7 @@
 }
 
 .sidebar-links {
-  width: 230px;
+  width: 180px;
   margin-left: 10px;
 }
 

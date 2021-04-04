@@ -1,5 +1,6 @@
-import { React, useState } from "react";
+import { React, useState, useEffect } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+it 
 import About from "./containers/About/About";
 import Portfolio from "./containers/Portfolio/Portfolio";
 import Home from "./containers/Home/Home"
@@ -11,6 +12,16 @@ import "./App.css";
 
 function App() {
   const [sidebarDisplay, setSidebarDisplay] = useState(false);
+
+  useEffect(()=> {
+    // Detect a click outside of the sidebar and set the sidebarDisplay state to false
+    document.addEventListener("click", (e)=> {
+      // Check to see if the target is not the sidebar or the navbar hamburger menu icon
+      if(e.target !== document.querySelector(".sidebar") && e.target !== document.getElementById("hamburger-open")) {
+        setSidebarDisplay(false);
+      }
+    })
+  },[]); 
 
   return (
     <div className="App">
