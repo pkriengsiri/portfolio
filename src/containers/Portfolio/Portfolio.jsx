@@ -7,9 +7,8 @@ import projects from "./projects";
 import ProjectContext from "../../contexts/ProjectContext";
 
 const Portfolio = () => {
-  const [project, setProject] = useState({
-    image: "bird.png",
-  });
+  const [project, setProject] = useState(null);
+  const [modalDisplay, setModalDisplay] = useState(false);
  
   const circleImageAlt = "picture of a printed circuit board";
   const content = (
@@ -25,6 +24,7 @@ const Portfolio = () => {
                 {...project}
                 details={project}
                 setProject={setProject}
+                setModalDisplay={setModalDisplay}
               />
             )}
       </div>
@@ -40,7 +40,7 @@ const Portfolio = () => {
         content={content}
         title={title}
       />
-      <Modal />
+      {modalDisplay && <Modal setModalDisplay={setModalDisplay} project={project}/>}
     </ProjectContext.Provider>
   );
 };

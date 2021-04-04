@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import "./Modal.css";
 import ProjectContext from "../../contexts/ProjectContext";
 
-const Modal = () => {
+const Modal = ({project, setModalDisplay}) => {
   const {
     image,
     name,
@@ -13,7 +13,7 @@ const Modal = () => {
     imageAlt,
   } = useContext(ProjectContext);
 
-  let modalImage = require("../../images/" + image);
+  let modalImage = require("../../images/" + project.image);
 
   return (
     <div id="id01" className="w3-modal">
@@ -61,7 +61,7 @@ const Modal = () => {
             type="button"
             className="btn btn-primary"
             onClick={() => {
-              document.getElementById("id01").style.display = "none";
+              setModalDisplay(false);
             }}
           >
             Close

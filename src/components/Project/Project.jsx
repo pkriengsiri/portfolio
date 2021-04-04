@@ -1,7 +1,7 @@
 import React from "react";
 import "./Project.css";
 
-const Project = ({ image, name, details,setProject}) => {
+const Project = ({ image, name, details,setProject, setModalDisplay}) => {
   let cardImage = require("../../images/" + image);
 
   return (
@@ -9,7 +9,7 @@ const Project = ({ image, name, details,setProject}) => {
       className="card card-custom align-items-center animate-card"
       onClick={(e) => {
         setProject(details);
-        document.getElementById('id01').style.display='block';
+        setModalDisplay(true);
       }}
     >
       <img className="card-img-top" src={cardImage.default} alt={"screenshot of "+name} />
