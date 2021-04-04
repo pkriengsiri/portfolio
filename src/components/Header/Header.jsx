@@ -1,11 +1,17 @@
-import React from "react";
-import "./Header.css";
 import { Link } from "react-router-dom";
+import {React, useContext} from "react";
+
+import "./Header.css";
 import resume from "../../files/dpk_resume.pdf";
+import SidebarContext from "../../contexts/SidebarContext";
 
 const Header = () => {
-  const handleClick = () => {
-    document.querySelector(".sidebar").style.width = "250px";
+  // Method from context to change sidebar display state
+  const setSidebarDisplay = useContext(SidebarContext);
+
+  // Handle click to close sidebar
+  const openSidebar = () => {
+    setSidebarDisplay(true);
   };
 
   return (
@@ -57,7 +63,7 @@ const Header = () => {
           <i
             className="fas fa-bars fa-2x"
             id="hamburger-open"
-            onClick={handleClick}
+            onClick={openSidebar}
           ></i>
         </div>
         <div className="col-10">
