@@ -1,6 +1,6 @@
 import { React, useState, useEffect } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-it 
+
 import About from "./containers/About/About";
 import Portfolio from "./containers/Portfolio/Portfolio";
 import Home from "./containers/Home/Home"
