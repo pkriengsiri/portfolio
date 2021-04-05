@@ -8,8 +8,8 @@ const Modal = ({project, setModalDisplay}) => {
   let modalImage = require("../../images/" + project.image);
 
   return (
-    <div id="id01" className="w3-modal">
-      <div className="w3-modal-content w3-animate-top p-2">
+    <div id="id01" className="project-modal">
+      <div className="project-modal-content animate-top p-2">
         <header className="container w3-teal modal-header pb-1">
           <h3>{project.name}</h3>
         </header>

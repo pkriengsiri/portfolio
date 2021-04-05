@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Main from "../../components/Main/Main";
 import Modal from "../../components/Modal/Modal";
 import Project from "../../components/Project/Project";
@@ -10,6 +10,19 @@ const Portfolio = () => {
   const [project, setProject] = useState(null);
   // Controls the display state of the project modal window
   const [modalDisplay, setModalDisplay] = useState(false);
+
+  // useEffect(() => {
+  //   // Detect a click outside of the sidebar and set the sidebarDisplay state to false
+  //   document.addEventListener("click", (e)=> {
+  //     console.log(e.target);
+  //     console.log(e.target !== document.querySelectorAll(".project-card"))
+  //     // Check to see if the target is not the sidebar or the navbar hamburger menu icon
+  //     if(e.target !== document.querySelector(".project-modal") && e.target !== document.querySelectorAll(".project-card")) {
+  //       console.log("clicked outside")
+  //       setModalDisplay(false);
+  //     }
+  //   })
+  // }, []);
 
   const circleImageAlt = "picture of a printed circuit board";
   const content = (

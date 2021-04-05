@@ -8,21 +8,20 @@
     max-height: 180px;
     object-fit: cover;
     object-position: top;
-    /* vertical-align: text-top; */
   }
 
   .animate-card {
     position: relative;
-    animation: animatecard 1s;
+    animation: animatecard 2s;
   }
  
   @keyframes animatecard {
     from {
-      top: -100px;
+      /* top: -100px; */
       opacity: 0;
     }
     to {
-      top: 0;
+      /* top: 0; */
       opacity: 1;
     }
   }

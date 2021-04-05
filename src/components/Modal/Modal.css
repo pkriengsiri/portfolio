@@ -1,7 +1,6 @@
-.w3-modal {
+.project-modal {
     z-index: 3;
-    /* display: none; */
-    padding-top: 100px;
+    padding-top: 25px;
     position: fixed;
     left: 0;
     top: 0;
@@ -11,7 +10,7 @@
     background-color: rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.4);
   }
-  .w3-modal-content {
+  .project-modal-content {
     margin: auto;
     background-color: #01497c;
     position: relative;
@@ -23,17 +22,15 @@
     border-radius: 10px;
   }
 
-  .w3-animate-top {
+  .animate-top {
     position: relative;
     animation: animatetop 1s;
   }
   @keyframes animatetop {
     from {
       left: -300px;
-      /* opacity: .75; */
     }
     to {
       left: 0;
-      /* opacity: 1; */
     }
   }
