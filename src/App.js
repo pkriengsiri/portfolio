@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import About from "./containers/About/About";
 import Portfolio from "./containers/Portfolio/Portfolio";
 import Home from "./containers/Home/Home"
-import Header from "./components/Header/Header";
+import Navbar from "./components/Navbar/Navbar";
 import Sidebar from "./components/Sidebar/Sidebar";
 import Footer from "./components/Footer/Footer";
 import SidebarContext from "./contexts/SidebarContext";
@@ -27,7 +27,7 @@ function App() {
     <div className="App">
       <Router>
         <SidebarContext.Provider value={setSidebarDisplay}>
-          <Header />
+          <Navbar />
           {sidebarDisplay && <Sidebar />}
         </SidebarContext.Provider>
         <Switch>

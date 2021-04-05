@@ -6,7 +6,9 @@ import circleImage from "../../images/portfolio.jpg";
 import projects from "./projects";
 
 const Portfolio = () => {
+  // Stores the details of the project a user clicks
   const [project, setProject] = useState(null);
+  // Controls the display state of the project modal window
   const [modalDisplay, setModalDisplay] = useState(false);
 
   const circleImageAlt = "picture of a printed circuit board";

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import {React, useContext} from "react";
 
-import "./Header.css";
+import "./Navbar.css";
 import resume from "../../files/dpk_resume.pdf";
 import SidebarContext from "../../contexts/SidebarContext";
 

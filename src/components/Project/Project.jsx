@@ -8,7 +8,9 @@ const Project = ({ image, name, details,setProject, setModalDisplay}) => {
     <div
       className="card card-custom align-items-center animate-card"
       onClick={(e) => {
+        // Sets the project state to the current project
         setProject(details);
+        // Displays a modal window with the current project
         setModalDisplay(true);
       }}
     >
