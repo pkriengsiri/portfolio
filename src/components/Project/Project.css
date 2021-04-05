@@ -1,3 +1,17 @@
+.animate-card {
+  position: relative;
+  animation: animatecard 2s;
+} @keyframes animatecard {
+  from {
+    /* top: -100px; */
+    opacity: 0;
+  }
+  to {
+    /* top: 0; */
+    opacity: 1;
+  }
+}
+
 .card-custom {
     margin: 20px;
     width: 250px;
@@ -10,18 +24,6 @@
     object-position: top;
   }
 
-  .animate-card {
-    position: relative;
-    animation: animatecard 2s;
-  }
- 
-  @keyframes animatecard {
-    from {
-      /* top: -100px; */
-      opacity: 0;
-    }
-    to {
-      /* top: 0; */
-      opacity: 1;
-    }
+  .project-card:hover {
+    cursor: pointer;
   }
