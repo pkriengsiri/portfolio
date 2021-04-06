@@ -43,6 +43,7 @@ const Header = () => {
             href="https://github.com/pkriengsiri"
             target="_blank"
             rel="noreferrer"
+            aria-label="Link to Github"
           >
             <i className="fab fa-github-square fa-3x mr-2"></i>
           </a>
@@ -50,10 +51,11 @@ const Header = () => {
             href="https://www.linkedin.com/in/petekriengsiri/"
             target="_blank"
             rel="noreferrer"
+            aria-label="Link to LinkedIn"
           >
             <i className="fab fa-linkedin fa-3x mr-2"></i>
           </a>
-          <a href="mailto:pkriengsiri@gmail.com">
+          <a href="mailto:pkriengsiri@gmail.com" aria-label="Email Link">
             <i className="fas fa-envelope-square fa-3x"></i>
           </a>
         </div>
