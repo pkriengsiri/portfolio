@@ -11,6 +11,7 @@ import SidebarContext from "./contexts/SidebarContext";
 import "./App.css";
 
 function App() {
+  // Controls the display state of the sidebar
   const [sidebarDisplay, setSidebarDisplay] = useState(false);
 
   useEffect(()=> {

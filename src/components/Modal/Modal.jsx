@@ -4,7 +4,6 @@ import "./Modal.css";
 
 const Modal = ({project, setModalDisplay}) => {
 
-  
   let modalImage = require("../../images/" + project.image);
 
   return (

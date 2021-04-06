@@ -6,7 +6,7 @@ import resume from "../../files/dpk_resume.pdf";
 import SidebarContext from "../../contexts/SidebarContext";
 
 const Header = () => {
-  // Method from context to change sidebar display state
+  // Change sidebar display state (from context)
   const setSidebarDisplay = useContext(SidebarContext);
 
   // Handle click to close sidebar

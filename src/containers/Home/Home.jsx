@@ -5,10 +5,12 @@ import { useHistory } from "react-router-dom";
 const Home = () => {
   const history = useHistory();
 
+  // Handles click on the about button
   const linkAbout = () => {
     history.push(`/about`);
   };
 
+  // Handles click on the portfolio button
   const linkPortfolio = () => {
     history.push(`/portfolio`);
   };
