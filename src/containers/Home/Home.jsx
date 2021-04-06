@@ -49,7 +49,7 @@ const Home = () => {
                     rel="noreferrer"
                     className="home-link"
                   >
-                    <i className="fab fa-github-square fa-5x mr-2"></i>
+                    <i className="fab fa-github-square fa-5x mr-2" alt="Github"></i>
                   </a>
                   <a
                     href="https://www.linkedin.com/in/petekriengsiri/"
@@ -57,10 +57,10 @@ const Home = () => {
                     rel="noreferrer"
                     className="home-link"
                   >
-                    <i className="fab fa-linkedin fa-5x mr-2"></i>
+                    <i className="fab fa-linkedin fa-5x mr-2" alt="LinkedIn"></i>
                   </a>
                   <a href="mailto:pkriengsiri@gmail.com" className="home-link">
-                    <i className="fas fa-envelope-square fa-5x"></i>
+                    <i className="fas fa-envelope-square fa-5x" alt="Email"></i>
                   </a>
                 </div>
               </div>
