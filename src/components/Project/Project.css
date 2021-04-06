@@ -3,11 +3,9 @@
   animation: animatecard 2s;
 } @keyframes animatecard {
   from {
-    /* top: -100px; */
     opacity: 0;
   }
   to {
-    /* top: 0; */
     opacity: 1;
   }
 }

@@ -50,6 +50,7 @@ const Home = () => {
                     target="_blank"
                     rel="noreferrer"
                     className="home-link"
+                    aria-label="Link to Github"
                   >
                     <i className="fab fa-github-square fa-5x mr-2"></i>
                   </a>
@@ -58,10 +59,11 @@ const Home = () => {
                     target="_blank"
                     rel="noreferrer"
                     className="home-link"
+                    aria-label="Link to LinkedIn"
                   >
                     <i className="fab fa-linkedin fa-5x mr-2"></i>
                   </a>
-                  <a href="mailto:pkriengsiri@gmail.com" className="home-link">
+                  <a href="mailto:pkriengsiri@gmail.com" className="home-link" aria-label="Email Link">
                     <i className="fas fa-envelope-square fa-5x"></i>
                   </a>
                 </div>
