@@ -1,9 +1,7 @@
 import React from "react";
 import "./Modal.css";
 
-
-const Modal = ({project, setModalDisplay}) => {
-
+const Modal = ({ project, setModalDisplay }) => {
   let modalImage = require("../../images/" + project.image);
 
   return (
@@ -26,25 +24,28 @@ const Modal = ({project, setModalDisplay}) => {
           <h4>Technologies</h4>
           <p>{project.technologies}</p>
           <div className="modal-buttons mb-3">
-            {project.deployed && <a
-              href={project.deployed}
-              className="btn btn-primary bg-info rounded border-info m-1"
-              id="application-link"
-              target="_blank"
-              rel="noreferrer"
-              
-            >
-              Deployed Link
-            </a>}
-            <a
-              href={project.repository}
-              className="btn btn-primary bg-info rounded border-info m-1"
-              id="repository-link"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Source Code
-            </a>
+            {project.deployed && (
+              <a
+                href={project.deployed}
+                className="btn btn-primary bg-info rounded border-info m-1"
+                id="application-link"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Deployed Link
+              </a>
+            )}
+            {project.repository && (
+              <a
+                href={project.repository}
+                className="btn btn-primary bg-info rounded border-info m-1"
+                id="repository-link"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Source Code
+              </a>
+            )}
           </div>
         </div>
         <div className="modal-footer">
