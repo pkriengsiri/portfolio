@@ -1,5 +1,16 @@
 const projects = [
   {
+    name: "Bliss Nails and Spa",
+    description: "Marketing page for a full-service nail salon.",
+    technologies:
+      "React, Bootstrap",
+    repository: "",
+    deployed: "https://www.blissnas.com",
+    image: "bliss.png",
+    imageAlt: "screenshot of Bliss Nails and Spa marketing page",
+    gif: "",
+  },
+  {
     name: "Roam",
     description: "An application for facilitating group travel.  Allows for managing trips, shared expenses, and tasks.",
     technologies:
