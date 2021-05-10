@@ -73,7 +73,7 @@ const Home = () => {
             </div>
           </div>
           <div className="col-12 col-lg-6">
-            <h2 className="mt-3 mb-3">My technologies:</h2>
+            <h2 className="mt-3 mb-3 mx-2">My technologies:</h2>
             <div className="row icons p-2 d-flex justify-content-center mx-3">
               <i className="devicon-mongodb-plain-wordmark devicon m-2"></i>
               <i className="devicon-express-original devicon m-2"></i>
