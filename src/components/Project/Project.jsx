@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Project.css";
+import ImageSpinner from "../ImageSpinner/ImageSpinner";
 
-const Project = ({ image, name, details,setProject, setModalDisplay}) => {
+const Project = ({ image, name, details, setProject, setModalDisplay }) => {
+  const [loading, setLoading] = useState(true);
+
   let cardImage = require("../../images/" + image);
 
   return (
@@ -14,7 +17,21 @@ const Project = ({ image, name, details,setProject, setModalDisplay}) => {
         setModalDisplay(true);
       }}
     >
-      <img className="card-img-top" src={cardImage.default} alt={"screenshot of "+name} />
+      {loading && (
+        <ImageSpinner
+          spinnerContainer={"portfolio-spinner-container"}
+          spinnerType={"portfolio-spinner"}
+        />
+      )}
+      <img
+        style={!loading ? {} : { display: "none" }}
+        className="card-img-top"
+        src={cardImage.default}
+        alt={"screenshot of " + name}
+        onLoad={() => {
+          setLoading(false);
+        }}
+      />
       <div className="card-body">
         <h3 className="card-title">{name}</h3>
       </div>

@@ -1,11 +1,10 @@
 import React from 'react';
 import "./ImageSpinner.css"
 
-const GalleryImageSpinner = ({spinnerUse, spinnerType}) => {
+const GalleryImageSpinner = ({spinnerContainer, spinnerType}) => {
     return (
-        <div className={spinnerUse}>
+        <div className={spinnerContainer}>
           <div className={`${spinnerType} spinner-border`} role="status">
-            <span className="visually-hidden">Loading...</span>
           </div>
         </div>
     );
